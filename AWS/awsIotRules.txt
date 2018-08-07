@@ -1,0 +1,11 @@
+snsLambdaVibration SQL Statement:
+
+SELECT * FROM '#' WHERE startswith(sensorID,"Vibration")
+
+snsLambdaNoMotion SQL Statement:
+
+SELECT * FROM '#' WHERE sensorID='Alert'
+
+IoTDynamo SQL Statement:
+
+SELECT * FROM 'sdk/test/Python'
